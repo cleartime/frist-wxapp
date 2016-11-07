@@ -1,0 +1,69 @@
+/**index.wxss**/
+.index{
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  box-sizing:border-box;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
+  height: 190px;
+  background: #2b4166;
+  color: #ffffff;  
+}
+.icon{
+  display:inline-flex;
+  justify-content: flex-start;
+}
+.text, .account-text, .invest-text{
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.account-list{
+  display: flex;
+  justify-content: space-between;
+}
+.invest{
+  display: flex;
+  flex-direction: column;
+  box-sizing:border-box;
+  padding: 15px;
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-content: center;
+  height: 140px;
+  margin-bottom: 8px;
+}
+.invest-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #4A4A4A;
+  flex: 1;
+}
+.invest-content{
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+}
+.feature{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  }
+ .feature-content{
+   
+ }
+.feature-view{
+  height: 173px;
+  width: 50%;
+}
