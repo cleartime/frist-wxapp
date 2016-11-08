@@ -56,14 +56,22 @@
   flex: 2;
 }
 .feature{
-  display: flex;
-  flex-direction: column;
   background: #fff;
   }
- .feature-content{
-   
+.feature-content{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   border-bottom:1px solid #F0F0F0;
  }
 .feature-view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 173px;
   width: 50%;
+  font-size: 14px;
+  color: #8f8f94;
+  border-left:1px solid #F0F0F0;
 }

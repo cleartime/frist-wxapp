@@ -27,11 +27,17 @@
     <view class='invest-title'><text>我的投资</text></view>
     <view class='invest-content'>
       <view class='invest-text'>
-        <text style='color:#FC655C;font-size:32px'>{{planBidCount}}<text style='font-size:13px'>笔</text></text>
+      <view>
+        <text style='color:#FC655C;font-size:32px'>{{planBidCount}}</text>
+        <text style='font-size:13px;color:#FC655C;'>笔</text>
+        </view>
         <text style='color:#8f8f94;padding-top:10px'>计划标</text>
       </view>
       <view class='invest-text'>
-        <text style='color:#FC655C;font-size:32px'>{{disBidCount}}<text style='font-size:13px'>笔</text></text>
+      <view>
+        <text style='color:#FC655C;font-size:32px'>{{disBidCount}}</text>
+        <text style='font-size:13px;color:#FC655C;'>笔</text>
+        </view>
         <text style='color:#8f8f94;padding-top:10px'>散标</text>
       </view>
     </view>
@@ -40,27 +46,25 @@
   <view class='feature-content'>
     <view class='feature-view'>
       <view><image style="width: 28px; height: 28px;"  src="../../img/safetyicon@3x.png"></image></view>
-        <text>安全风控</text>
+        <text style='padding:10px 0'>安全风控</text>
         <text>四重保障机制</text>
       </view>
-    <view>
     <view class='feature-view'>
       <view><image style="width: 28px; height: 28px;"  src="../../img/gxsyicon@3x.png"></image></view>
-      <text>高效收益</text>
+      <text style='padding:10px 0'>高效收益</text>
       <text>历史本息到达率100%</text>
     </view>
     </view>
     <view class='feature-content'>
     <view class='feature-view'>
       <view><image style="width: 28px; height: 28px;"  src="../../img/glhxicon@3x.png"></image></view>
-      <text>高灵活性</text>
+      <text style='padding:10px 0'>高灵活性</text>
       <text>小额分散债权</text>
     </view>
     <view class='feature-view'>
       <view><image style="width: 28px; height: 28px;"  src="../../img/ptzzicon@3x.png"></image></view>
-      <text>平台资质</text>
+      <text style='padding:10px 0'>平台资质</text>
       <text>上海薪金融行业会员</text>
     </view>
     </view>
-  </view>
 </view>
